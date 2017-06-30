@@ -1,0 +1,10 @@
+<h1>ALL ARTISTS</h1>
+
+<ul>
+    <li ng-repeat="artist in $ctrl.artists">
+        <img ng-src="{{artist.photo_url}}">
+
+    <p>{{artist.name}}</p>
+    <p>{{artist.nationality}}</p>
+    </li>
+</ul>
